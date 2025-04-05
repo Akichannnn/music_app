@@ -1,0 +1,204 @@
+.thanh-cc {
+  width: 100%;
+  height: 5em;
+  position: fixed;
+  display: block;
+  left: -.5em;
+  z-index: 11;
+  bottom: 0;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  transform: translateY(8px);
+}
+
+ion-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-home,.icon-search,.icon-library {
+  position: relative;
+  top: -15px;
+  background: none;
+  transition: 1s all;
+  border: none;
+  left: -.5em;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  display: inline-flex;
+  padding: 40px;
+}
+
+.homehtml {
+  z-index: 10;
+  position: absolute;
+  top: -1em;
+  display: block;
+}
+
+.homehtml.active {
+  display: none;
+}
+
+.control {
+  width: 21em;
+  height: 4em;
+  position: fixed;
+  z-index: 11;
+  top: -.3em;
+  align-items: center;
+  align-self: center;
+  display: block;
+  transition: 1.2s all;
+}
+
+.control.active {
+  display: none;
+}
+
+.user-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  z-index: 6;
+}
+
+.tat-ca, .nhac-nhe, .nhac-remix {
+  height: 33px;
+  min-width: 50px;
+  max-width: 90px;
+  top: 1em;
+  border-radius: 20px;
+  background: #3e3d3d;
+  text-align: center;
+  align-items: center;
+  z-index: 6;
+  font-size: 12px;
+  margin: 3px;
+  left: 5em;
+  display: inline-flex;
+  padding: 14px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.tat-ca {
+  background: #00e300;
+  color: white;
+}
+
+.img-img {
+  width: 40px;
+  height: 35px;
+  border-radius: 2px;
+  position: absolute;
+  left: 10px;
+  top: .3em;
+}
+
+.menu-nhac {
+  width: 100%;
+  height: 3em;
+  position: fixed;
+  background: #585858;
+  bottom: 0;
+  transform: translateY(-4.5em);
+  align-items: center;
+  border-radius: 10px;
+  left: -.1em;
+  display: none;
+}
+
+#btn-play {
+  left: 22em;
+  top: -2.7em;
+  position: absolute;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background: none;
+  color: white;
+  z-index: 6;
+  text-align: center;
+  align-items: center;
+}
+
+.text-menu-nhac {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  width: 200px;
+  color: white;
+  left: 4em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* Nghệ sĩ */ 
+.i-artist {
+  font-size: 10px;
+  color: #ccc;
+  margin: 0;
+  text-align: left;
+  position: relative;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* Tên bài hát */
+.p-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  text-align: left;
+  position: relative;
+  width: 150px;
+}
+
+.searchhtml {
+  display: none;
+}
+
+.searchhtml.active {
+  display: block;
+}
+
+#pause {
+  display: none;
+}
+
+#pause.active {
+  display: block;
+}
+
+#playtracks {
+  display: none;
+}
+
+#playtracks.active {
+  display: block;
+}
+.settinghtml{
+  display: none;
+  z-index: 300;
+}
+#btn-plus{
+  top: 45%;
+  position: relative;
+  display: flex;
+}
+.libraryhtml{
+  display: none;
+}

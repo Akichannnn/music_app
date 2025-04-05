@@ -1,0 +1,72 @@
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px; /* Tạo khoảng cách với phần nội dung dưới */
+}
+
+#search-input {
+  width: 100%;
+  max-width: 300px; /* Giới hạn chiều rộng */
+  height: 40px; /* Tăng chiều cao */
+  padding: 0 15px; /* Thêm khoảng trống bên trong */
+  border: none;
+  background: #3d3d3d; /* Làm màu sắc dễ nhìn hơn */
+  color: white;
+  border-radius: 20px;
+  outline: none;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Thêm hiệu ứng bóng mềm mại */
+}
+.main {
+  margin-top: 20px;
+}
+
+#result-list {
+  list-style: none;
+}
+.kqtimkiem {
+  width: 100%; /* Tự động điều chỉnh với container cha */
+  max-width: 350px; /* Giới hạn chiều rộng tối đa */
+  height: auto; /* Để nội dung tự điều chỉnh chiều cao */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px; /* Bo góc để giao diện mềm mại */
+  margin-bottom: 15px;
+  position: relative;
+  left: -2em;
+  background-color: #2c2c2c; /* Thêm nền để tách biệt */
+}
+.img-kqtimkiem {
+  width: 50px;
+  height: 50px;
+  object-fit: cover; /* Đảm bảo ảnh không bị méo */
+}
+.ten-kqtimkiem {
+  color: white;
+  font-size: 16px; /* Tăng một chút để dễ nhìn */
+  font-weight: bold; /* Làm nổi bật hơn */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.casi-kqtimkiem {
+  font-size: 12px; /* Tăng kích thước một chút */
+  color: #b0b0b0; /* Dùng màu xám nhẹ để phụ trợ */
+  margin-top: 5px; /* Thêm khoảng cách giữa bài hát và nghệ sĩ */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

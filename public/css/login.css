@@ -1,0 +1,73 @@
+body{
+  background: black;
+}
+.login_form{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  color: white;
+}
+input{
+  text-align: center;
+}
+.login_form span{
+  width: 100%;
+  height: 2px;
+  background: white;
+  left: -1px;
+  position: fixed;
+  display: inline-block;
+  top: 25em;
+}
+.login_form a{
+  position: relative;
+  top: 10em;
+}
+.input-name{
+  width: 60%;
+  height: 2.5em;
+  border-radius: 20px;
+  position: relative;
+  top: 5em;
+}
+.input-password{
+  width: 60%;
+  height: 2.5em;
+  border-radius: 20px;
+  position: relative;
+  top: 7em;
+  left: 4.7em;
+}
+.btn-login{
+  width: 14em;
+  height: 3.4em;
+  background: #403838;
+  position: relative;
+  border: 1px solid white;
+  top: 13em;
+  border-radius: 10px;
+}
+.sinup_form{
+  display: none;
+}
+ion-icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  left: -6em;
+  top: -2.7em;
+}
+.nen_1{
+  top: 14em;
+  width: 70%;
+  height: 3em;
+  margin-top: 30px;
+  background: #373737;
+  border: 2px solid white;
+  position: relative;
+  border-radius: 20px;
+  left: 3em;
+}
