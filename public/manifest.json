@@ -1,9 +1,9 @@
 {
-     "name": "My Web App",
-     "short_name": "WebApp",
+     "name": "Aki Music",
+     "short_name": "Aki Music",
      "start_url": "/",
      "display": "standalone",
-     "background_color": "#ffffff",
+     "background_color": "#0000",
      "theme_color": "#000000",
      "icons": [
          {                          "src": "download s/icon.png",                   
