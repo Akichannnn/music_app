@@ -1,0 +1,223 @@
+.library{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.library h2{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.album_api h3{
+  text-align: left;
+  position: relative;
+  top: 2em;
+}
+
+.album_of_you h3{
+  text-align: left;
+  position: relative;
+  top: 1em;
+}
+.p_playlist,.p_nghe_si{
+  height: 33px;
+  min-width: 50px;
+  max-width: 120px;
+  border-radius: 20px;
+  background: #3e3d3d;
+  text-align: center;
+  align-items: center;
+  font-size: 12px;
+  margin: 3px;
+  left: -20%;
+  display: inline-flex;
+  padding: 14px;
+  position: relative;
+  box-sizing: border-box;
+}
+.menu_library{
+  width: 100%;
+  height: 15%;
+  box-shadow: 0.1px 0.2px #c6c6c6;
+}
+.pop_up_create_playList{
+  align-content: center;
+    width: 60px;
+    height: 60px;
+  align-items: center;
+  position: relative;
+  background: white;
+  color: black;
+  left: 80%;
+    border-radius: 100%;
+  z-index: 100;
+}
+.pop_up_create_playList button{
+  width: 60px;
+  background: white;
+  border-radius: 100%;
+  border: none;
+  height: 60px;
+}
+.list_playList_css{
+  width: 100px;
+  height: 100px;
+}
+.album_of_you_list{
+  gap: 1px;
+  height: 230px;
+  display: flex;
+  overflow-x: auto;
+  list-style: none;
+  padding: 0;
+}
+.album_of_you_list h4{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  top: 3px;
+}
+.album_of_you_list img{
+  width: 100%;
+  height: 9em;
+  object-fit: cover;
+  border-radius: 10px;
+  background-color: #333;
+}
+.album_of_you_list i {
+  color: white;
+  font-size: 8px;
+  text-align: center;
+  position: relative;
+  top: 3px;
+}
+.list_playList_css{
+  width: 150px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  overflow: visible;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.interface_album{
+  width: 100%;
+  height: 100%;
+  border-radius:2px;
+}
+.interface_album img{
+  width: 60%;
+  height: 25%;
+  object-fit: cover;
+  position: relative;
+  left: 20%;
+  border-radius: 10px;
+  top: 5%;
+}
+.interface_album h3{
+  position: relative;
+  align-content: center;
+  top: 3%;
+  left: 10%;
+}
+.interface_album i{
+  position: relative;
+  left: 10%;
+}
+.interface_album div{
+  position: relative;
+  left: 10%;
+}
+.album button{
+  background: none;
+  color: white;
+  border: none;
+}
+.album hr{
+  position: relative;
+  top: -20em;
+}
+.playList_library{
+  width: 19.50em;
+  height: 100%;
+  position: relative;
+  margin-top: 2px;
+  display: flex;
+  color: white;
+  top: -20em;
+  display: block;
+}
+.album{
+  width: 99.99999999%;
+  left: 1%;
+  height: 80%;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  overflow-y: auto;
+  list-style: none;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  display: none;
+  justify-self: center;
+}
+.library{
+  display: block;
+}
+.interface_album_icon i{
+  font-size: 30px;
+}
+.interface_album_icon{
+  width: 100%;
+  top: -22em;
+  position: relative;
+  display: inline-flex;
+  left: -1em;
+}
+#ti-download{
+  position: relative;
+  left: 40%;
+}
+.ti-circle-dashed-plus{
+  position: absolute;
+  left: 9em;
+}
+.ti-player-play{
+  position: relative;
+  left: 10%;
+}
+.interface_album_menu{
+  width: 90%;
+  height: 100%;
+  background:black;
+  left: -3px;
+  color: white;
+  z-index: 100;
+  border-radius: 10px;
+  position: relative;
+  display: none;
+  top: -13em;
+}
+.interface_album_menu i{
+  font-size: 25px;
+}
+.ti-pencil,.ti-photo-edit,.ti-highlight{
+  position: absolute;
+    transform: translateX(-2em);
+}
+.interface_album_menu button{
+  background: none;
+  color: white;
+  border: none;
+}
+.interface_album_menu hr{
+  width: 100%;
+  position: relative;
+  top: 3px;
+  left: -1em;
+}

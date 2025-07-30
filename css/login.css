@@ -1,0 +1,41 @@
+body{
+  background: linear-gradient(to right,white, pink);
+  color: white;
+  text-align: center;
+}
+.background-random{
+  filter: blur(1.5px);
+  width: 103%;
+  height: 103%;
+  position: fixed;
+  left: -1%;
+  top: -1%;
+  z-index: 3;
+}
+ion-icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  left: -6em;
+  top: -2.7em;
+}
+.nen_1{
+  width: 70%;
+  height: 3em;
+  margin-top: 30px;
+  background: #373737;
+  border: 2px solid white;
+  text-align-last: center;
+  position: relative;
+  border-radius: 20px;
+  top: 20em;
+  z-index: 99;
+  justify-self: center;
+  align-items: center;
+}
+i{
+  text-align: center;
+  position: relative;
+  top: 15em;
+  z-index: 99;
+}

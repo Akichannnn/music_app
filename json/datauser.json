@@ -1,0 +1,24 @@
+ [
+   {
+     "username": "1",
+     "password": "1",
+     "userid": "1",
+     "icon_user": "img/dunghong.jpg",
+     "oledbackgrond": "true",
+     "usericon": "downloads/icon.png",
+     "email": "abc@gmail.com",
+     "numberphone": "1",
+     "name@": "@uer-1"
+   },
+      {
+     "username": "2",
+     "password": "2",
+     "userid": "2",
+     "icon_user": "",
+     "oledbackgrond": "true",
+     "usericon": "downloads/icon.png",
+     "email": "abc@gmail.com",
+     "numberphone": "123456789",
+     "name@": "@uer-2"
+   }
+]
