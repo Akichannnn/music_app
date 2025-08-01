@@ -1,24 +1,2 @@
-├── css
-    ├── homecss.css
-    ├── library.css
-    ├── login.css
-    ├── search.css
-    ├── setting.css
-    └── style.css
-├── js
-    ├── cordova_app.js
-    ├── home.js
-    ├── library.js
-    ├── login.js
-    ├── main.js
-    ├── search.js
-    ├── service-worker.js
-    └── setting.js
-├── json
-    ├── datauser.json
-    ├── manifest.json
-    └── track.json
-├── library.html
-├── login.html
-├── search.html
-└── setting.html
+lưu ý hiện tại app chỉ dùng tốt nhất từ android 13 trở xuống nếu muốn dùng nên qua bản web
+https://akiwed.42web.io/
