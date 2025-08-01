@@ -11,8 +11,8 @@ var $search = document.querySelector.bind(document),
   icon_videos = $search(".icon_videos"),
   img = $search(".img");
 //http://localhost:3000
-let api = "https://api.akiweb.click";
-let api_2 = "https://www.akiweb.click";
+let api = "";
+let api_2 = "";
 let suggestion = [];
 let playlist = [];
 let playlist_next = [];
