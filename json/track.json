@@ -1,0 +1,187 @@
+[
+	{
+	  "id": 1,
+		"name": "this way",
+		"artist": "cara",
+		"img": "img/thisway.jpeg",
+		"source": "downloads/thisway.mp3"
+	},
+	{
+	  "id": 2,
+		"name": "đừng hòng",
+		"artist": "ngô trúc linh",
+		"img": "img/dunghong.jpg",
+		"source": "downloads/dunghong.mp3"
+	},
+	{
+	  "id": 3,
+		"name": "MARIA (Hwa Sa) - JAPANDEE REMIX",
+		"artist": "JAPANDEE REMIX OFFICIAL",
+		"img": "img/maxresdefault.jpg",
+		"source": "downloads/nhacremix.mp3"
+	},
+	{
+	  "id": 4,
+		"name": "yêu anh đi mẹ anh bán bánh mì",
+		"artist": "phuc du",
+		"img": "img/yadmabbm.jpg",
+		"source": "downloads/yeuanhdimeanhbanbanhmi.mp3"
+	},
+	{
+	  "id": 5,
+		"name": "em xinh",
+		"artist": "mono",
+		"img": "img/emxinh.jpg",
+		"source": "downloads/emxinh.mp3"
+	},
+	{
+	  "id": 6,
+		"name": "chăm hoa",
+		"artist": "mono",
+		"img": "img/chamhoa.jpg",
+		"source": "downloads/chamhoa.mp3"
+	},
+	{
+	  "id": 7,
+		"name": "em chẳng phải thúy kiều",
+		"artist": "Hoàng Thuỳ Linh",
+		"img": "img/emdaychangphaithuykieu.jpg",
+		"source": "downloads/emdauphaithuykieu.mp3"
+	},
+	{
+	  "id": 8,
+		"name": "NƠI NÀY CÓ ANH｜OFFICIAL MUSIC VIDEO｜SƠN TÙNG M-TP",
+		"artist": "Sơn Tùng M-TP",
+		"img": "img/nnca.jpg",
+		"source": "downloads/NƠINÀYCÓANH｜OFFICIALMUSICVIDEO｜SƠNTÙNGM-TP.mp3"
+	},
+	{
+	  "id": 9,
+		"name": "Lối Nhỏ",
+		"artist": "Đen Vâu",
+		"img": "img/loinho.jpg",
+		"source": "downloads/Đen-LốiNhỏft.PhươngAnhĐào(M⧸V).mp3"
+	},
+	{
+	  "id": 10,
+		"name": "Moonlight × Automotivo Bibi Fodsa",
+		"artist": "chidori official",
+		"img": "img/moonlightremix.jpg",
+		"source": "downloads/MOONLIGHTxAUTOMOTIVOBIBIFOGASA-CHIDORIREMIX.mp3"
+	},
+	{
+	  "id": 11,
+		"name": "Anh Là Ngoại Lệ Của Em",
+		"artist": "Phương Ly",
+		"img": "img/anhlangoailecuaem.jpg",
+		"source": "downloads/ANHLÀNGOẠILỆCỦAEM-PHƯƠNGLY｜OFFICIALMV.mp3"
+	},
+	{
+	  "id": 12,
+		"name": "Phóng Zìn Zìn",
+		"artist": "tlinh & Low G",
+		"img": "img/phongzinzin.jpg",
+		"source":"downloads/PHÓNGZÌNZÌN｜LowGxtlinh｜OFFICIALAUDIO.mp3"
+	},
+	{
+	  "id": 13,
+		"name": "Muộn Rồi Mà Sao Còn",
+		"artist": "Sơn Tùng M-TP",
+		"img": "img/muonroimasaoma.jpg",
+		"source": "downloads/SƠNTÙNGM-TP｜MUỘNRỒIMÀSAOCÒN｜OFFICIALMUSICVIDEO.mp3"
+	},
+	{
+	  "id": 14,
+		"name": "Thích Quá Rùi Nà",
+		"artist": "tlinh feat. Trung Trần",
+		"img": "img/yeuquaruina.jpg",
+		"source": "downloads/tlinh-ThíchQuáRùiNà(ft.TrungTrần)｜OFFICIALLYRICSVIDEO.mp3"
+	},
+	{
+	  "id": 15,
+		"name": "An Thần",
+		"artist": "Low G x Thắng",
+		"img": "img/anthan.jpg",
+		"source": "downloads/AnThần.mp3"
+	},
+	{
+	  "id": 16,
+	  "name": "【崩壊：スターレイル】花火キャラクターPV「独り芝居」",
+	  "artist": "崩壊：スターレイル",
+	  "img": "img/【崩壊：スターレイル】花火キャラクターPV「独り芝居」.jpg",
+	  "source": "downloads/【崩壊：スターレイル】花火キャラクターPV「独り芝居」.mp3"
+	},
+	{
+	  "id": 17,
+	  "name": "DAKEY(IfGurbane)-MinhAKRemix",
+	  "artist": "IfGurbane",
+	  "img": "img/DAKEY(IfGurbane)-MinhAKRemix.jpg",
+	  "source": "downloads/DAKEY(IfGurbane)-MinhAKRemix.mp3"
+	},
+	{
+	  "id": 18,
+	  "name": "GentleBad(ifGUrbane)-MinhAKRemix",
+	  "artist": "ifGUrbane",
+	  "img": "img/GentleBad(ifGUrbane)-MinhAKRemix.jpg",
+	  "source": "downloads/GentleBad(ifGUrbane)-MinhAKRemix.mp3"
+	},
+	{
+	  "id": 19,
+	  "name": "GoneBad(PHONK)",
+	  "artist": "GTR7-topic",
+	  "img": "img/GoneBad(PHONK).jpg",
+	  "source": "downloads/GoneBad(PHONK).mp3"
+	},
+	{
+	  "id": 20,
+	  "name": "ONLY(LouBRemix)-NHẠC LOFI CHILL CHO DÂN BAY - HOT TIKTOK THÁNG 10 2022",
+	  "artist": "LouBRemix",
+	  "img": "img/ONLY(LouBRemix)-NHẠCLOFICHILLCHODÂNBAY-HOTTIKTOKTHÁNG102022.jpg",
+	  "source": "downloads/ONLY(LouBRemix)-NHẠCLOFICHILLCHODÂNBAY-HOTTIKTOKTHÁNG102022.mp3"
+	},
+	{
+	  "id": 21,
+	  "name": "SOTIRED(PHONK)",
+	  "artist": "the vide guide",
+	  "img": "img/SOTIRED(PHONK).jpg",
+	  "source": "downloads/SOTIRED(PHONK).mp3"
+	},
+	{
+	  "id": 22,
+	  "name": "Violin Động Lực (VH Remix)",
+	  "artist": "VHRemix",
+	  "img": "img/ViolinĐộngLực(VHRemix).jpg",
+	  "source": "downloads/ViolinĐộngLực(VHRemix).mp3"
+	},
+	{
+	  "id": 23,
+	  "name": "Подлуной (SilverAce Remix)",
+	  "artist": "SilverAceRemix",
+	  "img": "img/Подлуной(SilverAceRemix).jpg",
+	  "source": "downloads/Подлуной(SilverAceRemix).mp3"
+	},{
+	   "id": 24,
+	  "name": "Ngựa Ô",
+	  "artist": "TeuYungBoy,Dangrangto(Prod.DONAL)",
+	  "img": "img/NGỰAÔ-TeuYungBoy,Dangrangto(Prod.DONAL)OfficialMV.jpg",
+	  "source": "downloads/NGỰAÔ-TeuYungBoy,Dangrangto (Prod.DONAL)_OfficialMV.mp3"
+	},{
+	  "id": 25,
+	  "name": "Đùng làm trái tim anh đau",
+	  "artist": "Sơn Tùng M-TP",
+	  "img": "img/SƠNTÙNGM-TPĐỪNGLÀMTRÁITIMANHĐAUOFFICIALMUSICVIDEO.jpg",
+	  "source": "downloads/SƠNTÙNGM-TP｜ĐỪNGLÀMTRÁITIMANHĐAU｜OFFICIALMUSICVIDEO.mp3"
+	},{
+	  "id": 26,
+	  "name": "CHÚNG TA CỦA TƯƠNG LAI",
+	  "artist": "Sơn Tùng M-TP",
+	  "img": "img/SƠNTÙNGM-TPCHÚNGTACỦATƯƠNGLAIOFFICIALMUSICVIDEO.jpg",
+	  "source": "downloads/SƠNTÙNGM-TP｜CHÚNGTACỦATƯƠNGLAI｜OFFICIALMUSICVIDEO.mp3"
+	},{
+	  "id": 27,
+	  "name": "Love is dang rang to",
+	  "artist": "Dangrangto",
+	  "img": "img/Loveisdangrangto-NHẠCHOTTRENDTIKTOK2024.jpg",
+	  "source": "downloads/Loveisdangrangto-NHẠCHOTTRENDTIKTOK2024.mp3"
+	}
+]

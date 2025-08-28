@@ -1,0 +1,194 @@
+@media only screen and (min-width: 200px) and (max-width: 2000px) {
+    body {
+        background-color: black;
+    }
+}
+h3 {
+    position: relative;
+    color: floralwhite;
+}
+.h3-1 {
+    top: 9em;
+    left: 0.8em;
+}
+.h3-2-1 {
+    top: 12em;
+    width: 300px;
+    left: 0.8em;
+}
+.dad-nghelai h3 {
+    top: -1em;
+    width: 70%;
+    left: 0.8em;
+}
+.h3-2::-webkit-scrollbar {
+    display: none;
+}
+.h3-3 {
+    top: 70em;
+}
+.h4-1 {
+    position: absolute;
+    left: 1em;
+    top: 3em;
+    color: floralwhite;
+}
+.tat-ca-list {
+    gap: 15px;
+    height: 250px;
+    display: flex;
+    overflow-x: auto;
+    list-style: none;
+    overflow-y: hidden;
+    width: 18.8em;
+    padding: 0;
+}
+
+.tat-ca-list::-webkit-scrollbar {
+    display: none;
+}
+
+.li {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    overflow: visible;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.li:hover {
+    transform: scale(1.05);
+}
+.li-2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    overflow: visible;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.tracks-print-h4 {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    top: 0.3em;
+}
+.tracks-print-h4-2 {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    top: -2em;
+}
+
+.tracks-print-i {
+    color: white;
+    font-size: 8px;
+    text-align: center;
+    position: relative;
+    top: 0.5em;
+}
+.tracks-print-i-2 {
+    color: #ffd2d2;
+    font-size: 8px;
+    text-align: center;
+    position: relative;
+    top: -4em;
+}
+.imgsrc {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: #333;
+}
+.imgsrc-2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: #333;
+}
+.imgsrc:not([src]) {
+    background: gray;
+}
+.list-h3-2::-webkit-scrollbar {
+    display: none;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid white;
+    position: relative;
+    top: -5em;
+}
+.ten_nghe_si {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
+    position: relative;
+    top: -7em;
+}
+.dad-nghelai ul {
+    gap: 15px;
+    width: 18.8em;
+    height: 200px;
+    display: flex;
+    position: relative;
+    overflow-x: auto;
+    list-style: none;
+    padding: 0;
+    left: 1em;
+    z-index: 100;
+}
+.dad-nghelai {
+    position: relative;
+    top: 12em;
+}
+.artists-what-you-know {
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 2.9em;
+}
+.artists-what-you-know div {
+    top: 20em;
+    position: relative;
+}
+.artists-what-you-know ul {
+    gap: 15px;
+    height: 30%;
+    display: flex;
+    overflow-x: auto;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    top: 12em;
+    left: 1em;
+}
+.info_artist h4 {
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: -11em;
+    left: 30%;
+}
