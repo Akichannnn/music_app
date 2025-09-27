@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en,vi">
+<head>
+  <title>Aki Music</title>
+  <!--===meta==-->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bắt buộc trong <head> -->
+<meta property="og:title" content="Nghe nhạc miễn phí với Aki Music!" />
+<meta property="og:description" content="Thưởng thức những bản nhạc chất lượng hoàn toàn miễn phí!" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://akiweb.web.app/img/background.jpg" />
+<meta property="og:url" content="https://akiweb.web.app" />
+
+<!-- Thẻ hỗ trợ Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Nghe nhạc miễn phí với Aki Music!" />
+<meta name="twitter:description" content="Thưởng thức những bản nhạc chất lượng hoàn toàn miễn phí!" />
+<meta name="twitter:image" content="https://akiweb.web.app/img/background.jpg" />
+
+  <!--==link==-->
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
+  />
+  <link rel="manifest" href="json/manifest.json">
+  <link rel="icon" type="image/png" zise="32x32" href="img/new_icon.png">
+  <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/homecss.css">
+  <link rel="stylesheet" href="css/search.css">
+  <link rel="stylesheet" href="css/setting.css">
+  <link rel="stylesheet" href="css/library.css">
+  <!--==script link==-->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+  <script src="https://kit.fontawesome.com/860e7596f3.js"></scrip>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+  <script
+  src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"></script>
+  <!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <main class="body_2">
+  <main class="music-player" id="music-player">
+      <div class="audio-playing">
+      <p>Đang phát bài</p>
+      <div>
+   <h4 class="playing-track-name">
+        i love you </h4>
+      </div>
+        </div>
+    <!--===== music player =====-->
+    <main class="audio-container">
+      <audio class="audio"></audio>
+        <div class="audio-img">
+          <img class="img">
+        </div>
+         <video id="video" class="video"></video>
+      <div class="title-sing">
+         <h2 class="audio-title">Title of audio</h2>
+        <h6 class="audio-singer">Singer name</h6>
+        <button onclick="moreOptions()" class="more-options">   <i class="ti ti-plus"></i></button>
+      </div>
+          <ul class="options">
+            <button onclick="turnOffOptions()" class="turnOff-options">
+              <i class="ti ti-caret-down"></i></button>
+              <hr>
+          <ol class="addPlayList_local"><i class="ti ti-circle-plus"></i>thêm vào danh sách</ol>
+          <ol class="downloads"><i class="ti ti-download"></i>tải xuống</ol>
+          <ol class="setTime_Sleep"><i class="ti ti-moon"></i>hẹn giờ đi ngủ</ol>
+          <ol class="share"><i class="ti ti-share-3"></i>chia sẻ</ol>
+          <div class="list_playList_want_add_div">
+            <button class="ti-caret-down-btn">
+         <i class="ti ti-caret-down"></i>
+            </button>
+            <hr>
+            <ul class="list_playList_want_add"></ul>
+          </div>
+      <button class="btn-remove"></button>
+        </ul>
+    <main class="audio-control">
+        <div class="audio-progress">
+          <input value="0" min="0" max="100" class="progress_test" type="range" step="1">
+        <div class="current-time">
+          00:00
+        </div>
+        <div class="duration">
+          00:00
+        </div>
+      </div>
+      <div class="audio-btns">
+        <button  class="btn random">
+          <i id="random" class="fa-solid fa-shuffle"></i>
+        </button>
+        <button class="btn skip-back">
+          <i class="fa-solid fa-backward-step fa-1x"></i>
+        </button>
+        <button class="btn-p play">
+         <i class="fa-solid fa-play fa-2x"></i>
+        </button>
+
+        <button  class="btn skip-forward">
+          <i class="fa-solid fa-forward-step fa-1x"></i>
+        </button>
+         <button class="btn replay">
+          <i id="replay" class="fa-solid fa-rotate"></i>
+        </button>
+      </div>
+      <div class="Posted-on">   
+      <h4>bài hát được đăng vào: </h4>
+      <div class="posted">01/01/0000</div>
+      <hr>
+        <h4>số lượt xem: </h4>
+        <p class="viwer">0</p>
+      </div>
+    </main>
+  </main>
+        <button id="menu">
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+  </main>
+  <!--===== giao dien=====-->
+  <header class="giao-dien">
+    <nav class='thanh-cc'>
+      <button class="icon-home">
+         <i id="i-1" class="ti ti-home-filled"></i>
+      </button>
+      <button class="icon-search">
+       <i id="i-2" class="ti ti-search"></i>
+      </button>
+      <button class="icon-library">
+          <i id="i-3" class="ti ti-books"></i>
+      </button>
+       <button id="btn-play">
+          <i id="pause" class="fa-solid fa-play fa-2x"></i>
+          <i id="playtracks" class="fa-solid fa-pause fa-2x"></i>
+      </button>
+      <div class="menu-nhac">
+      <div class="menu-phat-nhac">
+     <div class="search-container"></div>
+     <img class="img-img">
+     <div class="text-menu-nhac">
+      <p class="p-name"></p>
+      <i class="i-artist"></i>
+    </div>
+      </div>
+    </div>
+    </nav>
+  </header>
+  <nav class="control">
+    <img class="user-icon" src="img/new_icon.png">
+    <h4 class="h4-1">good morning!</h4>
+    <p class="tat-ca">
+      tất cả
+    </p>
+    <p class="nhac-nhe">
+      nhạc nhẹ
+    </p>
+    <p class="nhac-remix">
+      nhạc remix
+    </p>
+  </nav>
+  <!--===login.html===-->
+  <div class="loginhtml"></div>
+   <!--===setting.html===-->
+  <div class="settinghtml"></div>
+ <!--===home.html===-->
+  <div class="homehtml"></div>
+  <!--===search.html===-->
+  <div class="searchhtml"></div>
+  <!--===search.html===-->
+  <div class="libraryhtml"></div>
+  <!--===== MAIN JS=====-->
+  <script async src="js/main.js"></script>
+  <script async src="js/capatcior.js"></script>
+<script type="module" src="js/datacache.js"></script>
+  </main>
+</body>
+</html>

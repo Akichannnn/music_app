@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <body>
+    <style>
+      img{
+        width: 100px;
+        height: 100px;
+      }
+      </style>
+      <img class="img">
+      <script>
+      let current_Index = 0;
+      let fetchedSuggestions = new Set();
+      const img = document.querySelector(".img")
+      let playlist_next = [];
+  function next_track(direction) {
+  let newIndex = current_Index;
+  getWrappedIndex(direction)
+  console.log(newIndex)
+  console.log(elements.img)
+  const track = playlist_next[newIndex]
+}
+function getWrappedIndex(direction, length) {
+  if (current_Index > 0) {
+   current_Index = current_Index + direction;
+  }else if(current_Index <= 0){
+    current_Index = (current_Index+direction+50)%50;
+  }
+}
+async function suggestion_next_playList(id) {
+  if (fetchedSuggestions.has(id)) return; // Đã gọi rồi → bỏ qua
+
+  try {
+    const response = await fetch(`${api_2}/api/suggestion/nexts?id=${id}&sus=aki`);
+    const data = await response.json();
+    playlist_next = data;
+    fetchedSuggestions.add(id);
+    console.log("danh sách bài tiếp theo:",playlist_next)
+  } catch (e) {
+    console.log("404");
+  }
+  suggestion_next_playList(o53kYEWCfwE)
+      </script>
+    </body>
+</html>

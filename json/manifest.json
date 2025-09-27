@@ -1,0 +1,20 @@
+{
+  "name": "Aki Music App",
+  "short_name": "AkiMusic",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#1db954",
+  "icons": [
+    {
+      "src": "downloads/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "downloads/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

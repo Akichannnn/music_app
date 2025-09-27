@@ -1,0 +1,313 @@
+/* Nền chung */
+html {
+    color: white;
+    background: black;
+}
+/* Tiêu đề menu */
+.setting-menu {
+    background: #2d2d2d;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    border-radius: 8px;
+    line-height: 45px;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+    z-index: 2;
+}
+.container-2 {
+    background: #2d2d2d;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    border-radius: 8px;
+    line-height: 45px;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+    display: none;
+    z-index: 2;
+}
+.container-3 {
+    background: #2d2d2d;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    border-radius: 8px;
+    line-height: 45px;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+    display: none;
+    z-index: 4;
+}
+/* Các mục trong menu */
+.info-account,
+.info,
+.change-ui,
+.change-backgound {
+    width: 100%;
+    height: 45px;
+    margin-top: 50px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hiệu ứng hover */
+.info-account:hover,
+.info:hover,
+.change-ui:hover,
+.change-backgound:hover {
+    color: pink;
+    transform: scale(1.05);
+}
+
+/* Định vị phần tử */
+.info {
+    top: 30em;
+    width: 95%;
+    position: absolute;
+}
+.back,
+.back-1,
+.back-2 {
+    position: absolute;
+    top: 0.5em;
+    font-size: 25px;
+    left: 0.3px;
+}
+i {
+    font-size: 12px;
+}
+.file {
+    display: none; /* Ẩn input file mặc định */
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+}
+
+.custom-file-upload:hover {
+    background: #0056b3;
+}
+
+.submit {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+.submit:hover {
+    background: #218838;
+}
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    border: 1px solid #adb5bd;
+    transition: 0.4s;
+    border-radius: 30px;
+    z-index: 3;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 20px;
+    left: 0.27em;
+    bottom: 0.25em;
+    background-color: #adb5bd;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #007bff;
+}
+
+input:checked + .slider::before {
+    transform: translateX(1.4em);
+    background-color: #fff;
+}
+.container_4 {
+    background: #2d2d2d;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    border-radius: 8px;
+    line-height: 45px;
+    font-weight: bold;
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+    display: none;
+    z-index: 2;
+}
+.back-3 {
+    position: absolute;
+    top: 0.3em;
+    left: 0.3px;
+    font-size: 25px;
+}
+.package_1 {
+    text-align: left;
+    transform: translateY(8px);
+    color: white;
+    position: relative;
+    left: -15%;
+    margin-top: 30px;
+    margin: 10px;
+}
+ol {
+    margin-top: 30px;
+}
+.btn_trash {
+    top: 700%;
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+#hr {
+    width: 122%;
+}
+#i {
+    font-size: 16px;
+}
+.play_video {
+    position: absolute;
+    width: 65%;
+    margin-top: -0.4em;
+    transform: translateX(.5em);
+}
+.play_video p {
+    font-size: 17px;
+    text-align: left;
+    position: relative;
+    transform: translateY(10%);
+    left: 4px;
+    font-weight: bold;
+}
+.play_video i {
+    font-size: 0.4em;
+    position: relative;
+    font-weight: bold;
+    top: -20px;
+    line-height: 10px;
+}
+.play_video label {
+    position: relative;
+    transform: translateX(10em);
+    top: -3em;
+}
+.audio_quality {
+    font-size: 5px;
+    position: relative;
+    top: 15em;
+    width: 80%;
+    text-align: left;
+    transform: translateX(3em);
+}
+.audio_quality p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.audio_quality input {
+    font-size: 0.2em;
+    display: inline-flex;
+}
+.setting_container div{
+  font-weight: bold;
+}
+.lyric{
+    font-size: 5px;
+    position: relative;
+    top: 15em;
+    width: 80%;
+    text-align: left;
+    transform: translateX(-4em);
+}
+.lyric p{
+  font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.SaveTrackLastTime{
+    font-size: 5px;
+    position: relative;
+    top: 15em;
+    width: 80%;
+    text-align: left;
+    transform: translateX(-4em);
+}
+.SaveTrackLastTime p{
+  font-size: 16px;
+    font-weight: bold;
+    line-height: 10px;
+}
+.SaveTrackLastTime i{
+  font-size: 0.4em;
+    position: relative;
+    font-weight: bold;
+    top: -20px;
+    line-height: 10px;
+}
+.SaveTrackLastTime label{
+  position: relative;
+    transform: translateX(4em);
+    top: -3em;
+}
